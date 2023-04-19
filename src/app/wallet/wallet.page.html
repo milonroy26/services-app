@@ -1,13 +1,23 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>wallet</ion-title>
-  </ion-toolbar>
+<ion-header class="ion-no-border">
+    <ion-list lines="none">
+      <ion-item color="priamry">
+        <ion-label class="ion-text-center" color="white">WALLET</ion-label>
+      </ion-item>
+    </ion-list>
+    
+    <div class="popover">
+      <ion-item lines="none">
+        <ion-label>
+          <ion-text color="dark">Total</ion-text>
+          <p> <ion-text color="primary">5000tk</ion-text> </p>
+        </ion-label>
+        <ion-icon slot="end" name="add-circle" color="primary"></ion-icon>
+      </ion-item>
+    </div>
+
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">wallet</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content color="light">
+  
 </ion-content>
+

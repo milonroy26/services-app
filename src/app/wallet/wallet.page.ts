@@ -15,6 +15,7 @@ export class WalletPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
